@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient(130deg, skyblue, lightgreen);
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto 20px;
+    background-color: aquamarine;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0,
+        0, 0.1);
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin: 20px 20px;
+    justify-content: space-between;
+    background-color: white;
+    height: 30px;
+    border-radius: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+button {
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: lightcoral;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: crimson;
+}
+
+#total-sale {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#sale-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    justify-content: space-between;
+}
+
+#sale-container #sale-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#sale-container li {
+    list-style: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    font-weight: bold;
+}
+
